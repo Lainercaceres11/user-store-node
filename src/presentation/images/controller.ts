@@ -10,7 +10,7 @@ export class ImageController {
 
     const imageUrl = path.resolve(
       __dirname,
-      "../../../",
+      "../../",
       `uploads/${type}/${img}`,
     );
 
